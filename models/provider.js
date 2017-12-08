@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 
 const ProviderShema = mongoose.Schema({
-    fist_name:{
+    first_name:{
         type: String,
         required: false
     },
